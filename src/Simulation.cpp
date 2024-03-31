@@ -41,7 +41,6 @@ void Simulation::Update()
         {
             int live_neighbors = CountLiveNeighbors(row, column);
             int cell_value = grid.GetValue(row, column);
-
             if (cell_value == 1)
             {
                 if (live_neighbors > 3 || live_neighbors < 2)

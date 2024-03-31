@@ -2,7 +2,7 @@
 #include "Simulation.hpp"
 Color Gray = {51, 51, 51, 255};
 const int CELL_SIZE = 5;
-const int WINDOW_WIDTH = 400;
+const int WINDOW_WIDTH = 600;
 const int WINDOW_HEIGHT = 400;
 
 int main()
@@ -58,7 +58,7 @@ int main()
         // drawing
         BeginDrawing();
         simulation.Draw();
-        ClearBackground(BLACK);
+      //  ClearBackground(BLACK);
         EndDrawing();
     }
 
